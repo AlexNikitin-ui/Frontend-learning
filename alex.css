@@ -1,0 +1,59 @@
+div header:hover {
+  color: black;
+  font-family: "Epilogue";
+  font-size: 12.59px;
+  font-weight: 600;
+  line-height: 18.89px;
+  text-align: left;
+  width: 211.98px;
+  height: 19px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 26.45px 329.91px 275.12px 75.11px;
+  padding-top: 26.45px;
+  padding-right: 75.11px;
+  padding-left: 75.11px;
+  padding-bottom: 26.45px;
+}
+div h2 {
+  font-size: 42.82px;
+  line-height: 43.89px;
+  width: 211.98px;
+  height: 88px;
+  gap: 0px;
+  opacity: 0px;
+  width: Fixed (617px) px;
+  height: Hug (320.57px) px;
+  top: 88px;
+  left: 635px;
+  padding: 26.45px 75.11px 26.45px 75.11px;
+  gap: 42.82px;
+  opacity: 0px;
+}
+div p {
+  font-family: Epilogue;
+  font-size: 10.7px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  padding-right: 100px;
+}
+
+.container img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+div button {
+  display: block;
+  border: 1px gray solid;
+  font-size: 20px;
+}
