@@ -1,59 +1,57 @@
-div header:hover {
-  color: black;
-  font-family: "Epilogue";
-  font-size: 12.59px;
-  font-weight: 600;
-  line-height: 18.89px;
-  text-align: left;
-  width: 211.98px;
-  height: 19px;
-  gap: 0px;
-  opacity: 0px;
-  margin: 26.45px 329.91px 275.12px 75.11px;
-  padding-top: 26.45px;
-  padding-right: 75.11px;
-  padding-left: 75.11px;
-  padding-bottom: 26.45px;
+body {
+  background-image: url(background\ image.jpg);
 }
-div h2 {
-  font-size: 42.82px;
-  line-height: 43.89px;
-  width: 211.98px;
-  height: 88px;
-  gap: 0px;
-  opacity: 0px;
-  width: Fixed (617px) px;
-  height: Hug (320.57px) px;
-  top: 88px;
-  left: 635px;
-  padding: 26.45px 75.11px 26.45px 75.11px;
-  gap: 42.82px;
-  opacity: 0px;
-}
-div p {
-  font-family: Epilogue;
-  font-size: 10.7px;
-  font-weight: 400;
-  line-height: 17px;
-  text-align: left;
+
+* {
+  font-family: "Epilogue", sans-serif;
+  color: #2d2d2d;
+  font-size: large;
 }
 
 .container {
-  position: relative;
+  max-width: 1440px;
+  padding: 0 75px;
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
+  gap: 43px;
   align-items: center;
-  justify-content: flex-end;
-  height: 100vh;
-  padding-right: 100px;
 }
 
-.container img {
-  position: absolute;
-  max-width: 100%;
-  height: auto;
+.branding_title {
+  font-size: 50px;
+  line-height: 80px;
 }
-div button {
-  display: block;
-  border: 1px gray solid;
-  font-size: 20px;
+
+.visual_designer {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.text {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.contact_me {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 15px 40px;
+  text-decoration: none;
+  border-radius: 500px;
+  transition: all 0.3s;
+}
+
+.contact_me:hover {
+  transform: scale(1.15);
+  color: rgb(62, 90, 62);
+  background-color: rgba(53, 31, 31, 0.2);
+}
+
+.img_girl {
+  min-width: 300px;
+  min-height: 300px;
+  height: 700px;
+  width: 700px;
 }
