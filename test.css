@@ -1,0 +1,64 @@
+* {
+  color: #2d2d2d;
+  font-family: "Epilogue", sans-serif;
+}
+
+.logo {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-weight: 600;
+}
+
+.container_1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+  line-height: 28px;
+  margin-right: 50px;
+  gap: 50px;
+}
+
+.main {
+  gap: 50px;
+  margin-top: 153px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 153px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto; 
+  height: 424px;
+}
+
+
+.content_branding {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.my_awesome_parfolio {
+  font-weight: 600;
+  font-style: 80px;
+  line-height: 90px;
+}
+
+.figma {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.desctop {
+  margin-right: 101px;
+  margin-left: 101px;
+  padding: 75px;
+  display: flex;
+  justify-content: space-between;
+}

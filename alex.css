@@ -55,3 +55,16 @@ body {
   height: 700px;
   width: 700px;
 }
+
+div {
+  position: relative;
+  margin: 0px;
+  padding: 0;
+}
+
+.modal {
+  background-color: aquamarine;
+  position: absolute;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
